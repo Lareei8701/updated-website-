@@ -1,4 +1,4 @@
-# Personal Website with Contact Management
+### Personal Website with Contact Management
 A simple personal website with a contact form that stores submissions in a MySQL database. Users can submit their name and age, and the website displays all submissions with the ability to activate/deactivate each contact.
 
 ## project-folder/
@@ -10,7 +10,7 @@ A simple personal website with a contact form that stores submissions in a MySQL
 └── simple_test.php     # Basic PHP test file
 
 ## Setup Instructions
-### 1. Database Setup
+# 1. Database Setup
 Create a MySQL database and table in localhost  phpMyAdmin:
 sql-- Create database
 CREATE DATABASE info;
@@ -27,21 +27,21 @@ CREATE TABLE contacts (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-### 2. Database Configuration
+# 2. Database Configuration
 Edit db_config.php to match your database settings:
 php$servername = "localhost";    # Your MySQL server
 $username = "root";           # Your MySQL username
 $password = "";               # Your MySQL password
 $database = 'info';           # Your database name
 
-### 3. Web Server Setup
+# 3. Web Server Setup
 Using XAMPP:
 Download and install XAMPP
 Start Apache and MySQL services
 Copy all project files to htdocs folder
 Access via http://localhost/your-project-folder/
 
-#### 4. Testing
+# 4. Testing
 
 Open http://localhost/your-project-folder/simple_test.php
 You should see "Hello from PHP!" if PHP is working
