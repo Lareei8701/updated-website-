@@ -2,6 +2,7 @@
 A simple personal website with a contact form that stores submissions in a MySQL database. Users can submit their name and age, and the website displays all submissions with the ability to activate/deactivate each contact.
 
 ## project-folder/
+project-folder/
 ├── index.html          # Main website page
 ├── db_config.php       # Database connection configuration
 ├── get_contacts.php    # Fetches contacts from database (JSON API)
